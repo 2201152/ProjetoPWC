@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Criptos Favoritas - CryptoStats</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="icon" sizes="48x48" href="/img/icon-48x48.png">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="navbar-brand">
+        <img src="img/icon-48x48.png"></img>
+        <a class="name">CryptoStats</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item" id="home">
+            <a class="nav-link" href="/">Página Principal</a>
+          </li>
+          <li class="nav-item" id="favoritos">
+            <a class="nav-link" href="/favoritos.html">Favoritos</a>
+          </li>
+        </ul>
+        <form id="form-search" class="form-inline my-2 my-lg-0" method="GET" action="/">
+          <div class="search">
+            <input class="form-control mr-sm-2 procurar" type="search" name="cripto" placeholder="Procurar cripto-moedas" aria-label="Search">
+            <button class="btn btn-outline-dark" type="submit">Procurar</button>
+          </div>
+        </form>
+      </div>
+    </nav>
+    
+    <div class="container mt-3 mb-4">
+    <div class="col-lg-9 mt-4 mt-lg-0">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="user-dashboard-info-box table-responsive mb-0 bg-white p-4 shadow-sm">
+              <table class="table manage-candidates-top mb-0">
+                <thead>
+                  <tr>
+                    <th>Cripto Moeda</th>
+                    <th class="text-center">Favoritos</th>
+                    <th class="action text-right">Valor (€)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="lista-ele-ele">
+                    <td class="title">
+                      <div class="thumb">
+                        <img class="coin-logo" src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="">
+                      </div>
+                      <div class="candidate-list-details">
+                        <div class="candidate-list-info">
+                          <div class="candidate-list-title">
+                            <a class="coin-nome" href="#">Brooke Kelly</a>
+                          </div>
+                          <div class="candidate-list-option">
+                            <ul class="list-unstyled">
+                              <li><i class="fas fa-filter pr-1"></i>Information Technology</li>
+                              <li><i class="fas fa-map-marker-alt pr-1"></i>Rolling Meadows, IL 60008</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="candidate-list-favourite-time text-center">
+                      <a class="candidate-list-favourite order-2" href="#"><i class="fas fa-star"></i></a>
+                      <span class="candidate-list-time order-1">Favorito</span>
+                    </td>
+                    <td>
+                        <h6>6969,00 €</h6>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
